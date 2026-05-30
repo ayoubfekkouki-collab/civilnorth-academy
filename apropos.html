@@ -1,0 +1,150 @@
+<!DOCTYPE html><html lang="fr"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>À propos - CivilNorth Academy</title>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+body{font-family:Inter,Arial,sans-serif;background:#02040a;color:#f8fafc}
+.bg-hero{background-image:linear-gradient(to right,#02040a 0%,rgba(2,4,10,.95) 45%,rgba(2,4,10,.72) 100%),url('assets/arriere%20plan.png');background-size:cover;background-position:center}
+.glass{background:rgba(6,10,19,.82);border:1px solid rgba(51,65,85,.75);backdrop-filter:blur(12px)}
+</style></head><body class="min-h-screen bg-hero">
+<header class="border-b border-slate-900/70 bg-[#02040a]/85 backdrop-blur-xl sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-3">
+      <img src="assets/civilnorth-logo.png" class="h-16 w-16 object-contain" alt="CivilNorth Academy">
+      <div class="flex flex-col items-center">
+        <div class="text-2xl font-extrabold"><span class="text-white">Civil</span><span class="text-blue-500">North</span></div>
+        <div class="flex items-center justify-center gap-2">
+          <span class="h-0.5 w-3 bg-blue-500/50"></span>
+          <span class="text-[9px] tracking-[0.35em] text-gray-300 font-bold">ACADEMY</span>
+          <span class="h-0.5 w-3 bg-blue-500/50"></span>
+        </div>
+      </div>
+    </a>
+    <nav class="hidden md:flex items-center gap-7 text-sm text-gray-300">
+      <a href="index.html" class="inline-flex h-8 items-center hover:text-white">Accueil</a>
+      <div class="relative group">
+        <a href="formations.html" class="inline-flex h-8 items-center gap-2 hover:text-white">Formations <i class="fa-solid fa-chevron-down text-[10px]"></i></a>
+        <div class="absolute left-0 top-full hidden group-hover:flex flex-col min-w-56 rounded-xl border border-slate-700 bg-[#02040a]/95 p-2 shadow-2xl backdrop-blur-xl">
+          <a href="autocad.html" class="rounded-lg px-4 py-2.5 hover:bg-blue-600/20 hover:text-white">Formation AutoCAD</a>
+          <a href="revit.html" class="rounded-lg px-4 py-2.5 hover:bg-blue-600/20 hover:text-white">Formation Revit</a>
+          <a href="robot.html" class="rounded-lg px-4 py-2.5 hover:bg-blue-600/20 hover:text-white">Formation Robot Structural Analysis</a>
+          <a href="primavera.html" class="rounded-lg px-4 py-2.5 hover:bg-blue-600/20 hover:text-white">Formation Primavera P6</a>
+          <a href="ms-project.html" class="rounded-lg px-4 py-2.5 hover:bg-blue-600/20 hover:text-white">Formation MS Project</a>
+        </div>
+      </div>
+      <a href="index.html#logiciels" class="inline-flex h-8 items-center hover:text-white">Logiciels</a>
+      <a href="apropos.html" class="relative inline-flex h-8 items-center text-blue-500">À propos<span class="absolute left-0 right-0 bottom-0 h-0.5 bg-blue-500"></span></a>
+      <a href="contact.html" class="inline-flex h-8 items-center hover:text-white">Contact</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <a href="https://wa.me/212661046073" class="bg-blue-600 hover:bg-blue-500 px-4 py-2 rounded-lg text-sm font-semibold">S'inscrire maintenant</a>
+      <a href="https://wa.me/212661046073" class="glass px-4 py-2 rounded-lg text-sm font-semibold hover:text-white"><i class="fa-brands fa-whatsapp text-emerald-500"></i> Nous contacter sur WhatsApp</a>
+    </div>
+  </div>
+</header>
+
+<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+  <section class="grid lg:grid-cols-12 gap-10 items-center">
+    <div class="lg:col-span-7">
+      <p class="text-blue-500 text-xs font-bold tracking-[0.2em] uppercase">À propos de CivilNorth Academy</p>
+      <h1 class="text-4xl lg:text-6xl font-black mt-4 leading-tight">Votre partenaire de référence en formation pratique en <span class="text-blue-500">Génie Civil</span></h1>
+      <p class="text-gray-300 mt-6 text-lg leading-8">Situé à Tanger, notre centre de formation est spécialisé dans le développement des compétences techniques et professionnelles dans le domaine du génie civil, de l'architecture et du bâtiment.</p>
+      <p class="text-gray-400 mt-4 leading-8">Notre mission est de rapprocher la formation des réalités du terrain en proposant des programmes axés sur la pratique, les études de cas réelles et les outils utilisés par les professionnels du secteur.</p>
+    </div>
+    <div class="lg:col-span-5">
+      <div class="glass rounded-2xl p-3">
+        <img src="assets/arriere plan.png" class="rounded-xl h-[360px] w-full object-cover" alt="Formation pratique en génie civil">
+      </div>
+    </div>
+  </section>
+
+  <section class="grid lg:grid-cols-2 gap-6 mt-14">
+    <div class="glass rounded-2xl p-7">
+      <div class="h-12 w-12 rounded-xl bg-blue-600/15 flex items-center justify-center mb-5"><i class="fa-solid fa-eye text-blue-500 text-xl"></i></div>
+      <h2 class="text-2xl font-black">Notre Vision</h2>
+      <p class="text-gray-400 mt-4 leading-8">Devenir le centre de référence au nord du Maroc dans la formation pratique en génie civil, en contribuant à la formation d'une nouvelle génération de professionnels qualifiés, capables de répondre aux exigences techniques et technologiques du secteur de la construction.</p>
+    </div>
+    <div class="glass rounded-2xl p-7">
+      <div class="h-12 w-12 rounded-xl bg-blue-600/15 flex items-center justify-center mb-5"><i class="fa-solid fa-bullseye text-blue-500 text-xl"></i></div>
+      <h2 class="text-2xl font-black">Notre Mission</h2>
+      <ul class="mt-4 space-y-3 text-gray-400">
+        <li><i class="fa-solid fa-check text-blue-500 mr-2"></i>Former des professionnels compétents et opérationnels.</li>
+        <li><i class="fa-solid fa-check text-blue-500 mr-2"></i>Renforcer les compétences techniques et numériques dans les métiers du bâtiment.</li>
+        <li><i class="fa-solid fa-check text-blue-500 mr-2"></i>Faciliter l'insertion professionnelle grâce à des formations orientées marché.</li>
+        <li><i class="fa-solid fa-check text-blue-500 mr-2"></i>Promouvoir l'utilisation des technologies BIM et des outils numériques.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="mt-14">
+    <h2 class="text-3xl font-black">Nos Domaines de Formation</h2>
+    <p class="text-gray-400 mt-3">Nous proposons des formations spécialisées dans plusieurs disciplines du génie civil.</p>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
+      <div class="glass rounded-xl p-5"><i class="fa-solid fa-drafting-compass text-blue-500"></i><p class="font-bold mt-3">Dessin technique et DAO</p></div>
+      <div class="glass rounded-xl p-5"><i class="fa-solid fa-cube text-blue-500"></i><p class="font-bold mt-3">Modélisation BIM</p></div>
+      <div class="glass rounded-xl p-5"><i class="fa-solid fa-building-columns text-blue-500"></i><p class="font-bold mt-3">Calcul et dimensionnement des structures</p></div>
+      <div class="glass rounded-xl p-5"><i class="fa-solid fa-diagram-project text-blue-500"></i><p class="font-bold mt-3">Gestion et planification de projets</p></div>
+      <div class="glass rounded-xl p-5"><i class="fa-solid fa-calculator text-blue-500"></i><p class="font-bold mt-3">Métré et estimation des coûts</p></div>
+      <div class="glass rounded-xl p-5"><i class="fa-solid fa-helmet-safety text-blue-500"></i><p class="font-bold mt-3">Suivi et pilotage des chantiers</p></div>
+      <div class="glass rounded-xl p-5"><i class="fa-solid fa-road text-blue-500"></i><p class="font-bold mt-3">Infrastructure et VRD</p></div>
+    </div>
+  </section>
+
+  <section class="grid lg:grid-cols-12 gap-8 mt-14">
+    <div class="lg:col-span-5">
+      <h2 class="text-3xl font-black">Logiciels Enseignés</h2>
+      <p class="text-gray-400 mt-4 leading-8">Nos formations intègrent les logiciels les plus utilisés dans le secteur pour préparer les apprenants aux exigences réelles des projets.</p>
+    </div>
+    <div class="lg:col-span-7 grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+      <span class="glass rounded-lg px-4 py-3 font-bold flex items-center gap-3"><img src="assets/autocad-removebg-preview.png" class="h-7 w-7 object-contain" alt="AutoCAD">AutoCAD</span>
+      <span class="glass rounded-lg px-4 py-3 font-bold flex items-center gap-3"><img src="assets/revit-removebg-preview.png" class="h-7 w-7 object-contain" alt="Revit Architecture">Revit Architecture</span>
+      <span class="glass rounded-lg px-4 py-3 font-bold flex items-center gap-3"><img src="assets/revit-removebg-preview.png" class="h-7 w-7 object-contain" alt="Revit Structure">Revit Structure</span>
+      <span class="glass rounded-lg px-4 py-3 font-bold flex items-center gap-3"><img src="assets/revit-removebg-preview.png" class="h-7 w-7 object-contain" alt="Revit MEP">Revit MEP</span>
+      <span class="glass rounded-lg px-4 py-3 font-bold flex items-center gap-3"><img src="assets/robot-removebg-preview.png" class="h-7 w-7 object-contain" alt="Robot Structural Analysis">Robot Structural Analysis</span>
+      <span class="glass rounded-lg px-4 py-3 font-bold flex items-center gap-3"><img src="assets/Civil-3d.png" class="h-7 w-7 object-contain" alt="Civil 3D">Civil 3D</span>
+      <span class="glass rounded-lg px-4 py-3 font-bold flex items-center gap-3"><img src="assets/covadis%20(2).png" class="h-7 w-7 object-contain" alt="Covadis">Covadis</span>
+      <span class="glass rounded-lg px-4 py-3 font-bold flex items-center gap-3"><img src="assets/ms_project-removebg-preview.png" class="h-7 w-7 object-contain" alt="MS Project">MS Project</span>
+      <span class="glass rounded-lg px-4 py-3 font-bold flex items-center gap-3"><img src="assets/ETABS.PNG" class="h-7 w-7 object-contain" alt="ETABS">ETABS</span>
+      <span class="glass rounded-lg px-4 py-3 font-bold flex items-center gap-3"><img src="assets/SAP%202000.png" class="h-7 w-7 object-contain" alt="SAP2000">SAP2000</span>
+      <span class="glass rounded-lg px-4 py-3 font-bold flex items-center gap-3"><img src="assets/safe-removebg-preview.png" class="h-7 w-7 object-contain" alt="SAFE">SAFE</span>
+    </div>
+  </section>
+
+  <section class="grid lg:grid-cols-2 gap-6 mt-14">
+    <div class="glass rounded-2xl p-7">
+      <h2 class="text-3xl font-black">Notre Méthode Pédagogique</h2>
+      <p class="text-blue-500 font-bold mt-2">Learning by Doing</p>
+      <div class="grid sm:grid-cols-2 gap-3 mt-6 text-gray-300">
+        <p><i class="fa-solid fa-check text-blue-500 mr-2"></i>Travaux pratiques intensifs</p>
+        <p><i class="fa-solid fa-check text-blue-500 mr-2"></i>Études de cas réels</p>
+        <p><i class="fa-solid fa-check text-blue-500 mr-2"></i>Projets professionnels complets</p>
+        <p><i class="fa-solid fa-check text-blue-500 mr-2"></i>Encadrement par des experts</p>
+        <p><i class="fa-solid fa-check text-blue-500 mr-2"></i>Groupes à effectif réduit</p>
+        <p><i class="fa-solid fa-check text-blue-500 mr-2"></i>Accompagnement personnalisé</p>
+      </div>
+    </div>
+    <div class="glass rounded-2xl p-7">
+      <h2 class="text-3xl font-black">Pourquoi Nous Choisir ?</h2>
+      <div class="space-y-3 mt-6 text-gray-300">
+        <p><i class="fa-solid fa-star text-blue-500 mr-2"></i>Formations 100 % pratiques</p>
+        <p><i class="fa-solid fa-star text-blue-500 mr-2"></i>Formateurs expérimentés issus du monde professionnel</p>
+        <p><i class="fa-solid fa-star text-blue-500 mr-2"></i>Programmes adaptés aux besoins du marché de l'emploi</p>
+        <p><i class="fa-solid fa-star text-blue-500 mr-2"></i>Équipements et outils professionnels</p>
+        <p><i class="fa-solid fa-star text-blue-500 mr-2"></i>Accompagnement vers l'insertion professionnelle</p>
+        <p><i class="fa-solid fa-star text-blue-500 mr-2"></i>Attestation de formation à la fin du parcours</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-14 glass rounded-2xl p-8 lg:p-10 text-center">
+    <h2 class="text-3xl lg:text-4xl font-black">Construisons Ensemble Votre Avenir Professionnel</h2>
+    <p class="text-gray-400 max-w-4xl mx-auto mt-5 leading-8">Notre ambition est de fournir à chaque apprenant les compétences techniques, méthodologiques et numériques nécessaires pour réussir dans les métiers du génie civil et contribuer efficacement aux projets de construction de demain.</p>
+    <p class="text-white font-bold mt-5">Rejoignez-nous et transformez votre passion pour la construction en véritable expertise professionnelle.</p>
+    <div class="mt-7 flex flex-wrap gap-3 justify-center">
+      <a href="formations.html" class="bg-blue-600 hover:bg-blue-500 px-7 py-3 rounded-xl font-bold">Voir nos formations</a>
+      <a href="https://wa.me/212661046073" class="glass px-7 py-3 rounded-xl font-bold hover:text-white"><i class="fa-brands fa-whatsapp text-emerald-500"></i> Nous contacter sur WhatsApp</a>
+    </div>
+  </section>
+</main></body></html>
